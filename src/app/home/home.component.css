@@ -1,0 +1,47 @@
+.pic{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 10%;
+}  
+h1{
+    text-align:center;
+     font-style:bold;
+      font-style:oblique;
+      color: darkblue;
+      text-shadow: 500px ;
+      font-size: 60px;
+}
+.para{
+    text-align:center; 
+    font-style:italic;
+    font-size: 15px;
+    
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.example-card {
+    max-width: 400px;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-top: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+  }
+  
+  .example-header-image {
+   
+    background-size: cover;
+  
+  }
+  
