@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --prod",
+    "start": "node --max_old_space_size=4096 ng serve --omit=dev",
     "build": "ng build --prod"
   },
   "private": true,
