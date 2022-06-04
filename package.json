@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng.js serve",
-    "build": "ng build --prod"
+    "build": "ng build",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
