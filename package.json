@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "./node_modules/@angular/cli/bin/ng serve --prod",
-    "build": "./node_modules/@angular/cli/bin/ng build --prod",
-    "test": "ng test"
+    "start": "ng serve --prod",
+    "build": "ng build --prod"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "~13.2.0",
     "@angular/animations": "~13.2.0",
     "@angular/cdk": "^13.3.8",
     "@angular/common": "~13.2.0",
