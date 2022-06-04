@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "PORT=4200 node --omit=dev --max_old_space_size=300 ./node_modules/@angular/cli/bin/ng.js serve --disable-host-check",
+    "start": "PORT=4200 node --optimize_for_size --gc_interval=60 --max_old_space_size=300 ./node_modules/@angular/cli/bin/ng.js serve --disable-host-check",
     "build": "ng build",
     "postinstall": "ng build --aot --prod"
   },
